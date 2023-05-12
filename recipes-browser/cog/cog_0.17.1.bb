@@ -4,6 +4,7 @@ require conf/include/devupstream.inc
 
 DEFAULT_PREFERENCE = "-1"
 
+SRC_URI += "file://0001-webkit-utils-Check-if-the-media-engine-will-show-the.patch "
 SRC_URI[sha256sum] = "69e7d3b62c206210c3c436746d1241bfb99a1e789e6c4b7cb65dd9ae72459d42"
 
 SRC_URI:class-devupstream = "git://github.com/Igalia/cog.git;protocol=https;tag=0.17.1"
